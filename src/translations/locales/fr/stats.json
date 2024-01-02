@@ -1,5 +1,10 @@
 {
-    "statsTotalTimeTrainning": "Temps total d'entrainement : ",
-    "statsTotalLogSaved": "Total de logs sauvegardés : ",
-    "statsRewardByGame": "Récompenses par partie : "
+    "statsAverageExecutedTimeByGame": "Temps moyen d'exécution par partie : ",
+    "statsAverageFrameByGame": "Nombre moyen de frames par partie : ",
+    "statsAverageRewardByGame": "Récompense moyenne par partie : ",
+    "statsRewardByGame": "Récompense par partie : ",
+    "statsTotalGamePlayed": "Nombre total de parties jouées : ",
+    "statsTotalLogSaved": "Nombre total de logs sauvegardés : ",
+    "statsTotalReward": "Récompense totale : ",
+    "statsTotalTimeTrainning": "Temps total d'entraînement : "
 }

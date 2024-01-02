@@ -2,5 +2,6 @@
     "commonClose": "Close",
     "commonValidate": "Validate",
     "commonHourShort": "h",
-    "commonMinuteShort": "m"
+    "commonMinuteShort": "m",
+    "commonSecondShort": "s"
 }

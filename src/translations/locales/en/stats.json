@@ -1,5 +1,10 @@
 {
-    "statsTotalTimeTrainning": "Total time trainning: ",
+    "statsAverageExecutedTimeByGame": "Average executed time by game: ",
+    "statsAverageFrameByGame": "Average frame by game: ",
+    "statsAverageRewardByGame": "Average reward by game: ",
+    "statsRewardByGame": "Reward by game: ",
+    "statsTotalGamePlayed": "Total game played: ",
     "statsTotalLogSaved": "Total log saved: ",
-    "statsRewardByGame": "Reward by game: "
+    "statsTotalReward": "Total reward: ",
+    "statsTotalTimeTrainning": "Total time trainning: "
 }

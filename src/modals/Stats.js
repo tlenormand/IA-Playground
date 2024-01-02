@@ -96,9 +96,27 @@ const Stats = (props) => {
         <View style={styles().modalBody}>
           <View style={styles().modalRow}>
             <Text style={styles().modalText}>{t('statsTotalTimeTrainning')}</Text>
-            <Text style={styles().modalText}>
-              {Math.floor(stats.ExecutedTimeTotal / 3600)}{t('commonHourShort')} {Math.round((stats.ExecutedTimeTotal % 3600) / 60)}{t('commonMinuteShort')}
-            </Text>
+            <Text style={styles().modalText}>{Math.floor(stats.executedTimeTotal / 3600)}{t('commonHourShort')} {Math.round((stats.executedTimeTotal % 3600) / 60)}{t('commonMinuteShort')}</Text>
+          </View>
+
+          <View style={styles().modalRow}>
+            <Text style={styles().modalText}>{t('statsTotalGamePlayed')}</Text>
+            <Text style={styles().modalText}>{stats.totalGamePlayed}</Text>
+          </View>
+
+          <View style={styles().modalRow}>
+            <Text style={styles().modalText}>{t('statsAverageRewardByGame')}</Text>
+            <Text style={styles().modalText}>{stats.averageRewardByGame}</Text>
+          </View>
+
+          <View style={styles().modalRow}>
+            <Text style={styles().modalText}>{t('statsAverageExecutedTimeByGame')}</Text>
+            <Text style={styles().modalText}>{stats.averageExecutedTimeByGame}{t('commonSecondShort')}</Text>
+          </View>
+
+          <View style={styles().modalRow}>
+            <Text style={styles().modalText}>{t('statsAverageFrameByGame')}</Text>
+            <Text style={styles().modalText}>{stats.averageFrameByGame}</Text>
           </View>
 
           <View style={styles().modalRow}>
