@@ -1,0 +1,8 @@
+{
+    "greetingConnected": "Bonjour, {{username}}!",
+    "greetingNotConnected": "Bonjour, étranger!",
+    "farewell": "Au revoir, {{username}}!",
+    "homeRegister": "S'inscrire",
+    "homeLogin": "Connexion",
+    "homeLogout": "Déconnexion"
+}

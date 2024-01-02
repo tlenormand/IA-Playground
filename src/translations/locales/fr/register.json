@@ -1,0 +1,9 @@
+{
+    "registerUsernameLabel": "Nom d'utilisateur",
+    "registerUsernamePlaceholder": "Entrer votre nom d'utilisateur",
+    "registerEmailLabel": "Email",
+    "registerEmailPlaceholder": "monemail@example.com",
+    "registerPasswordLabel": "Mot de passe",
+    "registerPasswordPlaceholder": "Entrer votre mot de passe",
+    "registerRegister": "S'inscrire"
+}

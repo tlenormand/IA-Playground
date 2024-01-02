@@ -1,0 +1,6 @@
+{
+    "signInEmailLabel": "Email",
+    "signInEmailPlaceholder": "monemail@example.com",
+    "signInPasswordLabel": "Mot de passe",
+    "signInPasswordPlaceholder": "Entrer votre mot de passe"
+}

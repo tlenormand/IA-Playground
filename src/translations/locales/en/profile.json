@@ -1,0 +1,8 @@
+{
+    "profileScreen": "My Profile",
+    "profileLanguagesEn": "English",
+    "profileLanguagesFr": "French",
+    "profileEmail": "Email: {{email}}",
+    "profileUsername": "Username: {{username}}",
+    "profileRole": "Role: {{role}}"
+}
