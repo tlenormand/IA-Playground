@@ -12,12 +12,11 @@ const styles = (params={}, options={}) => StyleSheet.create({
 //=============================================================================
     modal: {
         position: 'absolute',
-        top: 0,
-        bottom: 0,
-        left: 0,
-        right: 0,
+        justifyContent: 'center',
+        alignItems: 'center',
         zIndex: options.visible ? 10 : -10,
-        minWidth: minWidth
+        minWidth: minWidth,
+        width: params.width || '100%',
     },
     modalContainer: {
         flex: 1,
